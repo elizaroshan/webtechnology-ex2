@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align:center; color:blue">Karunya Institute of Technology and Sciences</h1>
+    <hr>
+    <table width="100%">
+        <tr style="text-align:center;">
+            <td><a href="home.html">About us</a></td>
+            <td>|</td>
+            <td><a href="admission.html">Admission</a></td>
+            <td>|</td>
+            <td><a href="calendar.html">Academic Calendar</a></td>
+            <td>|</td>
+            <td>Search :<input type="search" placeholder="Search here"></td>
+        </tr>
+    </table>
+    <hr>
+    <form action="submit.php">
+        <fieldset style="text-align:center; color: blue;">
+            <legend>Application Form</legend>
+                <table  align="center">
+                    <tr align="left">
+                        <td>Name</td>
+                        <td><input type="text" name="username" placeholder="Enter your name"></td>
+                    </tr>
+                    <tr align="left">
+                        <td>Application number</td>
+                        <td><input type="text" name="Application number" placeholder="KU2021CSE1001"></td>
+                    </tr>
+                    <tr align="left">
+                        <td>Password</td>
+                        <td><input type="password" name="password" placeholder="********"></td>
+                    </tr>
+                    <tr align="left">
+                        <td>Date of Birth</td>
+                        <td><input type="date" name="dob"></td>
+                    </tr>
+                    <tr align="left">
+                        <td>Age</td>
+                        <td><input type="number" name="age" ></td>
+                    </tr>
+                    <tr align="left">
+                        <td>Mobile number</td>
+                        <td><input type="tel" name="mobile number" placeholder="Enter Moblie Number" pattern="[0-9]{10}"></td>
+                    </tr>
+                    <tr align="left">
+                        <td>Email</td>
+                        <td><input type="Email" name="email" placeholder="Enter Email id"></td>
+                    </tr>
+                    <tr align="left">
+                        <td>Gender</td>
+                        <td>
+                            <input type="radio" name="gender"> Male
+                            <input type="radio" name="gender"> Female
+                            <input type="radio" name="gender"> Other
+                        </td>
+                    </tr>
+                    <tr align="left">
+                        <td>Address</td>
+                        <td><textarea name="message" rows="10" cols="30"></textarea></td>
+                    </tr>
+                    <tr align="left">
+                        <td>Languages Known</td>
+                        <td>
+                            <input type="checkbox" name="Languages Known">Tamil
+                            <input type="checkbox" name="Languages Known">English
+                            <input type="checkbox" name="Languages Known">Malayalam
+                            <input type="checkbox" name="Languages Known">Telugu
+                            <input type="checkbox" name="Languages Known">Hindi
+                        </td>
+                    </tr>
+                    <tr align="left"> 
+                        <td>Select your Course</td>
+                        <td>
+                            <select name="course">
+                            <option>B.tech Computer Science and Engineering</option>
+                            <option>B.tech Aeronautical Engineering</option>
+                            <option>B.tech Automobile Engineering</option>
+                            <option>B.tech Biotechnology</option>
+                            <option>B.tech Civil Engineering</option>
+                            <option>B.tech Electrical and Electronics Engineering</option>
+                            <option>B.tech Mechanical Engineering</option>
+                            <option>B.tech Electronics & Communication</option>
+                          </select>
+                        </td>
+                    </tr>
+                    <tr align="left">
+                        <td>Upload your Photo</td>
+                        <td>
+                            <input type="file" name="photo">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td align="left"><input type="Submit" value="Submit"></td>
+                    </tr>
+                </table>
+        </fieldset>
+        
+    </form>
+    
+</body>
+</html>
